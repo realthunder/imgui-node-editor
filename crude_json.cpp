@@ -16,6 +16,7 @@
 # include <clocale>
 # include <cmath>
 # include <cstring>
+# include <exception>   // std::terminate; libc++ does not pull it in transitively
 # if CRUDE_JSON_IO
 #     include <stdio.h>
 #     include <memory>
